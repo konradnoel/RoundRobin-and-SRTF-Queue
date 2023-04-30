@@ -1,0 +1,11 @@
+Input should be:
+
+A...Z, 0/1, 0..*, 1..*
+
+A...Z: the name of the process
+
+Priority: Either 1 for high, or 0 for low
+
+0..*: Any positive integer, the time-slice in which the task arrived to the queue
+
+1..*: Burst-time, the amount of time-slices it takes to finish the process
